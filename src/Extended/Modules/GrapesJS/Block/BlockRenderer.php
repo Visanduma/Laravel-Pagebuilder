@@ -4,6 +4,7 @@
 namespace HansSchouten\LaravelPageBuilder\Extended\Modules\GrapesJS\Block;
 
 
+use HansSchouten\LaravelPageBuilder\Extended\ThemeBlock;
 use PHPageBuilder\Modules\GrapesJS\Block\BaseController;
 use PHPageBuilder\Modules\GrapesJS\Block\BaseModel;
 
