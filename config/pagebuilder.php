@@ -175,5 +175,8 @@ return [
      |
      */
     'class_replacements' => [
+        // Enable laravel blade syntax support by using this PageRenderer & BlockRenderer class
+        \PHPageBuilder\Modules\GrapesJS\PageRenderer::class => \HansSchouten\LaravelPageBuilder\Extended\PageRenderer::class,
+        \PHPageBuilder\Modules\GrapesJS\Block\BlockRenderer::class => \PHPageBuilder\Modules\GrapesJS\Block\BlockRenderer::class
     ],
 ];
